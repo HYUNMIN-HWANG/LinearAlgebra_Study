@@ -11,7 +11,12 @@ print("Matrix M :\n", M)
 print("Transposing matrix M : \n",M.T)
 
 print("\nIs it Symmetric????")
-if M.T.all() == M.all() and np.shape(M) == np.shape(M.T):
+# if M.T.all() == M.all() and np.shape(M) == np.shape(M.T):
+#     print("\tYes, Tranpose is equal to M!")
+# else :
+#     print("\tNo, Not Tranpose!")
+
+if np.array_equal(M, M.T) and np.shape(M) == np.shape(M.T):
     print("\tYes, Tranpose is equal to M!")
 else :
     print("\tNo, Not Tranpose!")
@@ -42,6 +47,5 @@ Transposing matrix M :
  [3 5 6]]
 
 Is it Symmetric????
-        Yes, Tranpose is equal to M!
->>> 뭔가 잘못됨 다시 확인!
+        No, Not Tranpose!
 """
