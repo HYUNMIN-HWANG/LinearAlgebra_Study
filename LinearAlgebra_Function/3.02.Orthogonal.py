@@ -5,9 +5,11 @@ import numpy as np
 
 
 # 직교하는지 아닌지 확인 :  A^T * B = 0
+# 1)
 v1 = np.array([[1, -2, 4]])
 v2 = np.array([[2,5,2]])
 
+# 2)
 # v1 = np.array([[1,0]])
 # v2 = np.array([[0,1]])
 
