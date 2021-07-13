@@ -1,5 +1,6 @@
 # gram_schmidt orthogonalization
 # 직교하는 vector를 구한다.
+# https://python-advanced.quantecon.org/orth_proj.html
 
 import numpy as np
 
